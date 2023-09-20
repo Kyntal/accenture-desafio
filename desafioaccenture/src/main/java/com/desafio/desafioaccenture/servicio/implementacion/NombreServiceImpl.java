@@ -10,6 +10,6 @@ public class NombreServiceImpl implements NombreService {
     @Override
     public String obtenerNombres(){
 
-        return null;
+        return "Hola Mundo";
     }
 }

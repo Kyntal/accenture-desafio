@@ -11,6 +11,6 @@ import org.springframework.http.MediaType;
 public interface NombresApi {
     
     @GetMapping(path = "users/all", produces = MediaType.APPLICATION_JSON_VALUE)
-    public String obtenerNombresDeUsuario() throws Exception;
+    String obtenerNombresDeUsuario() throws Exception;
 
 }
