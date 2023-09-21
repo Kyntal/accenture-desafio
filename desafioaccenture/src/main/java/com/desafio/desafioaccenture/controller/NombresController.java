@@ -9,13 +9,13 @@ import com.desafio.desafioaccenture.cliente.NombresApi;
 import com.desafio.desafioaccenture.servicio.NombreService;
 
 @RestController
-public class NombresController implements NombresApi {
+public class NombresController implements NombresApi{
 
     private static final Logger LOGGER = LoggerFactory.getLogger(NombresController.class);
 
     @Autowired
     private NombreService nombreService;
-    
+
     @Override
     public String obtenerNombresDeUsuario() throws Exception {
         LOGGER.info("Nueva solicitud obtenerNombresDeUsuario ");
